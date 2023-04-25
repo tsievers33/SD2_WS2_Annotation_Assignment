@@ -25,7 +25,7 @@ namespace SD2_WS2_Annotation_Assignment.Models
 
         public string Password { get; set; }
 
-        
+        [NotMapped]
         public string ConfirmPassword { get; set; }
 
 
